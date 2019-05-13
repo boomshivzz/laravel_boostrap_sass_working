@@ -13,8 +13,8 @@
 
   </head>
   <body>
-       <header>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+       <header >
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between fixed-top">
              <a class="navbar-brand" href="#">Brand</a>    
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -45,17 +45,22 @@
       
       
       
-      
-      
-          
+       
   
     </header>
-
-          <div class="container my-container ">
-            @yield('content')
+       
+         
+         
+            @yield('showcase')
     
-        </div>      
-
+      
+  
+       
+      
+          <div class="container">
+            @yield('features')
+    
+        </div>    
   
   </body>
      <script src="{{ asset('js/app.js') }}"></script>

@@ -20,12 +20,14 @@ $cyan: #6cb2eb;
 
 
 
- 
+  
+   .my-container{
+          
+        background-image:-webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+         margin:30px;
+         }
 
-        .my-container {
-            border: 1px solid green;
-            margin: 30px;
-        }
+    
 
         .my-row {
             border: 3px solid red;
@@ -33,5 +35,41 @@ $cyan: #6cb2eb;
         }
 
         .my-col {
-            border: 3px dotted blue;
+            border: 3px solid blue;
         }
+
+        .fa{
+           font-size:60px;
+                
+           }
+
+
+
+/* SHOWCASE */
+
+.caption  {
+    width:100%;
+    max-width:100%;
+    position:absolute;
+    top:38%;
+    color:white;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+
+.caption h1{
+    font-size:2.6rem;
+    font-weight: 700;
+    padding-bottom:1rem;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem;
+}
+
+.caption h3{
+    font-size:1.8rem;
+    
+    padding-bottom:1.3rem;
+    
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
