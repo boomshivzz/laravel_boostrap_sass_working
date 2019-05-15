@@ -57,10 +57,10 @@
   
        
       
-          <div class="container">
+          
             @yield('features')
     
-        </div>    
+         
   
   </body>
      <script src="{{ asset('js/app.js') }}"></script>

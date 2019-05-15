@@ -37,11 +37,14 @@
 @endsection
 
 @section('features')
-      
+
+<div class="jumbotron">
+    <div class="container">
     <div class="row ">
        <div class="mycol2 col-xs-12  col-sm-12 col-md-12  text-center">
-        <h4 >Core Features</h4>
-        <p>What's Included</p>
+        <h4 class="heading">Core Features</h4>
+           <div class="heading-underline"> </div>
+        
         </div>
     <div class="row ">
               <div class="col-xs-12  col-sm-12 col-md-4 text-center">
@@ -77,6 +80,8 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
               </div>
             </div> 
-</div>
+   </div>
+</div>   
+    </div> 
     
 @endsection

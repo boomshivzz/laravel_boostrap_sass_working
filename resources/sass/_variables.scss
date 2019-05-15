@@ -20,7 +20,8 @@ $cyan: #6cb2eb;
 
 
 
-  
+
+
    .my-container{
           
         background-image:-webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
@@ -72,4 +73,42 @@ $cyan: #6cb2eb;
     padding-bottom:1.3rem;
     
     text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+/*MEDIA QUERIES*/
+@media (max-width: 767px)
+{
+    
+    .caption h1{
+    font-size:2rem;
+    padding-bottom:0.5rem;
+    letter-spacing: 0.15rem;
+    
+}
+
+.caption h3{
+    font-size:1.2rem;
+    padding-bottom:1.2rem;
+    
+    
+}
+    
+}
+
+/*SHOWCASE*/
+
+
+/*feature underline*/
+.heading{
+    
+    
+      padding-bottom:1rem; 
+}
+.heading-underline{
+    width: 2rem;
+    height: 0.3rem;
+    background-color: #fdb811;
+    margin: 0 auto 2rem;
+   padding-bottom:.15rem; 
+  
+  
 }

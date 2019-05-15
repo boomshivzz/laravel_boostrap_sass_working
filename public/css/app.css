@@ -3096,6 +3096,37 @@
   text-shadow: 0.1rem 0.1rem 0.5rem black;
 }
 
+/*MEDIA QUERIES*/
+
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.15rem;
+  }
+
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+}
+
+/*SHOWCASE*/
+
+/*feature underline*/
+
+.heading {
+  padding-bottom: 1rem;
+}
+
+.heading-underline {
+  width: 2rem;
+  height: 0.3rem;
+  background-color: #fdb811;
+  margin: 0 auto 2rem;
+  padding-bottom: 0.15rem;
+}
+
 /*--- Extra Bootstrap Column Padding --*/
 
 [class*=col-] {
@@ -13847,5 +13878,14 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #40E0D0;
 }
 
