@@ -60,6 +60,8 @@
           
             @yield('features')
     
+      
+      @yield('testimonial')
          
   
   </body>

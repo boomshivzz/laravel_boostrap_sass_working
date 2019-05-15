@@ -85,3 +85,50 @@
     </div> 
     
 @endsection
+
+@section('testimonial')
+
+<div class="container">
+    <div class="row">  
+    <div class="col-md-12 text-center">
+        <h2>Testimonials </h2>
+    </div>
+        
+        </div>
+    <div class="row ">
+        <div class="col-md-6">
+             <div class="row ">
+                <div class="col-md-4">
+                    <img class="testirow" src="../../images/computers.png"  > 
+            </div>
+            
+            <div class="col-md-8">
+                <blockquote>
+                    <i class="fa fa-quote-left"></i>
+                    The Services provided are upto expectations and fulfill our requirements. We wish to avail your services again in the near future.
+                      <hr class="testi"> 
+                <cite>&#8212;Surya, IOS Developer </cite>
+                </blockquote>
+            </div>
+        </div>
+        </div>
+        
+         <div class="col-md-6">
+             <div class="row ">
+             <div class="col-md-4">
+                 <img class="testirow" src="../../images/showcase.jpg"> 
+            </div>
+            
+            <div class="col-md-8">
+                <blockquote>
+                    <i class="fa fa-quote-left"></i>
+                Once we started using their services there is no looking back. Highly knowledgeable staff will resolve all your queries.
+                    <hr class="testi"> 
+                <cite>&#8212;Rahul, Software Engineer </cite>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>
+
+@endsection

@@ -3127,6 +3127,29 @@
   padding-bottom: 0.15rem;
 }
 
+/*testimonial*/
+
+.testirow {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote {
+  margin: 0.5rem;
+}
+
+blockquote .fa {
+  font-size: 20px;
+  margin-right: 0.8rem;
+}
+
+.testi {
+  padding-top: 0.15rem;
+  background-color: #40E0D0;
+}
+
+/*testimonial*/
+
 /*--- Extra Bootstrap Column Padding --*/
 
 [class*=col-] {
